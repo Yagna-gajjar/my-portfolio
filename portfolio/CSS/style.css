@@ -54,8 +54,8 @@ body {
   border-bottom: 1px solid var(--fonts);
 }
 
-/* Hamburger icon */
-.hamburger {
+/* bar icon */
+.bar {
   display: none;
   font-size: 1.8rem;
   cursor: pointer;
@@ -70,7 +70,7 @@ body {
 
 /* Responsive Navigation */
 @media (max-width: 768px) {
-  .hamburger {
+  .bar {
     display: block;
   }
 
@@ -122,18 +122,11 @@ body {
 .hero-content h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  /* animation: blink 0.7s steps(1) ; */
 }
 
 
 .hero-content p {
   font-size: 1.2rem;
-}
-
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
 }
 
 .hero-content .btn {
@@ -147,7 +140,6 @@ body {
   margin: 10px;
   color: var(--fonts);
   text-decoration: none;
-  /* Remove underline */
   font-weight: 600;
   font-size: 1rem;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
