@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <!-- Navigation Links -->
+
+      <div id="cross">X</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content" data-aos="fade-right">
+      <h1>
+        <div class="typewriter">
+          <span id="text"></span><span class="cursor"></span>
+        </div>
+      </h1>
+      <p>Fullstack Developer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-image" data-aos="fade-left">
+      <img src="./assets/4492091.webp" alt="Yagna Gangajaliya" />
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container" data-aos="fade-right">
+      <div class="about-image">
+        <img src="./assets/download.png" alt="Yagna Gangajaliya" />
+      </div>
+      <div class="about-text" data-aos="fade-left">
+        <h2>About Me</h2>
+        <p>
+          I'm a front-end web developer passionate about building user-friendly, responsive, and accessible websites. I
+          love
+          turning complex problems into clean, intuitive, and visually appealing designs that enhance user experience.
+
+          Over the course of my journey, I've worked extensively with modern JavaScript frameworks—particularly
+          React.js—to
+          develop dynamic and high-performance web applications. I have hands-on experience with HTML, CSS, JavaScript,
+          and
+          React, along with proficiency in version control using Git and GitHub.
+
+          I completed an internship at Inlancer, where I worked as a MERN Stack Developer, gaining experience in
+          developing
+          full-stack applications using MongoDB, Express.js, React, and Node.js. I also interned at Bonzark Technologies
+          as
+          a Flutter Developer, where I contributed to building cross-platform mobile applications.
+
+          I'm continuously learning and exploring new technologies to improve my skill set and deliver impactful digital
+          experiences.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item" data-aos="flip-left">
+        <h3>JavaScript</h3>
+        <p>Interactive elements, DOM manipulation, ES6+ features.</p>
+      </div>
+      <div class="skill-item" data-aos="flip-left">
+        <h3>MERN Stack</h3>
+        <p>MongoDB, Express, React js, Node js</p>
+      </div>
+      <div class="skill-item" data-aos="flip-left">
+        <h3>HTML</h3>
+        <p>Semantic and accessible markup for modern web pages.</p>
+      </div>
+      <div class="skill-item" data-aos="flip-left">
+        <h3>CSS</h3>
+        <p>Responsive design, Flexbox, Grid, animations and styling.</p>
+      </div>
+      <div class="skill-item" data-aos="flip-left">
+        <h3>Flutter</h3>
+        <p>Skilled in building cross-platform mobile applications using Flutter and Dart.</p>
+      </div>
+      <div class="skill-item" data-aos="flip-left">
+        <h3>Basic Backend</h3>
+        <p>Working knowledge of Node.js and REST APIs.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" data-aos="zoom-in">
+        <h3>Mini Games</h3>
+        <p>I have made project of mini games using HTML, CSS and JavaScript</p>
+        <button>
+          <a>View Project</a>
+        </button>
+      </div>
+      <div class="project-card" data-aos="zoom-in">
+        <h3>Jay Agro</h3>
+        <p>I have made website usinf MERN stack of my father's factory which includes CRUD operatio and admin panel.</p>
+        <button>
+          <a>View Project</a>
+        </button>
+      </div>
+      <div class="project-card" data-aos="zoom-in">
+        <h3>Music App</h3>
+        <p>I have made application using fluter and it has functionality like searching, localization</p>
+        <button>
+          <a>View Project</a>
+        </button>
+      </div>
+      <div class="project-card" data-aos="zoom-in">
+        <h3>Music reccomendation</h3>
+        <p>It is Ai/ML based project which gives reccomendation based on searched song</p>
+        <button>
+          <a>View Project</a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="zoom-out-down">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+    <div>
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p><strong>Yagna Gangajaliya</strong></p>
+      <p>Email: <a href="mailto:yagna@example.com">yagnagangajaliya@gmail.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+91 7016926384</a></p>
+    </div>
+    <p class="footer-copy">&copy; 2025 Yagna Gangajaliya. All rights reserved.</p>
+  </footer>
+
+
+  <script src="./JS/index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
