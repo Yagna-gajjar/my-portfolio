@@ -163,7 +163,7 @@ body {
 .hero-image img {
   width: 400px;
   border-radius: 50%;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 28px 0 var(--primary);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -217,7 +217,7 @@ body {
   height: 400px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 28px var(--primary);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -268,7 +268,6 @@ body {
 .skill-item {
   padding: 1.5rem;
   border-radius: 15px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -312,7 +311,6 @@ body {
   align-items: center;
   border-radius: 15px;
   padding: 1.5rem;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -321,9 +319,8 @@ body {
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.5);
+  box-shadow: 0 12px 25px 0 var(--primary);
 }
-
 
 .project-card button {
   border: 0px;
