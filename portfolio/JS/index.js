@@ -1,8 +1,8 @@
-const hamburger = document.getElementById('hamburger');
+const bar = document.getElementById('bar');
 const navLinks = document.getElementById('nav-links');
 const cross = document.getElementById('cross');
 
-hamburger.addEventListener('click', () => {
+bar.addEventListener('click', () => {
   navLinks.classList.toggle('show');
 });
 
