@@ -84,9 +84,10 @@ body {
     right: -100%;
     width: 200px;
     height: 100%;
-    background: #333;
+    background: var(--main);
     flex-direction: column;
     padding-top: 4rem;
+    color: var(--fonts);
     transition: right 0.3s ease-in-out;
     z-index: 1000;
   }
